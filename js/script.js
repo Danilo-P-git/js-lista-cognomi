@@ -15,4 +15,6 @@ for (var i = 0; i < nomi.length; i++) {
   document.getElementById('lista').innerHTML = containerNomi + "<li>" + nomi[i] + "</li>";
 }
 
-console.log(nomeInserito);
+var posizioneCognomeUtente = nomi.indexOf(nomeInserito) + 1;
+
+alert("il tuo congnome è il numero" + posizioneCognomeUtente );
