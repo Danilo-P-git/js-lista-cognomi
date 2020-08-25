@@ -14,3 +14,5 @@ for (var i = 0; i < nomi.length; i++) {
   var containerNomi = document.getElementById('lista').innerHTML;
   document.getElementById('lista').innerHTML = containerNomi + "<li>" + nomi[i] + "</li>";
 }
+
+console.log(nomeInserito);
